@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button {
+  @apply border-black border bg-gray-200 px-2 py-1 w-fit
+}
+
+input {
+  @apply border border-black px-1
+}
+
+.content {
+  @apply w-3/4 h-96 border border-black relative
+}
